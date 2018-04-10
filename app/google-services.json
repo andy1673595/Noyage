@@ -46,36 +46,13 @@
       },
       "oauth_client": [
         {
-          "client_id": "547964898893-bguqmlkp174n6rmpdn88nvqipq44erum.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAhCi2uMIDbM4eb9E_B1t5VycwdPPJS6Ks"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
+          "client_id": "547964898893-5udfjub33f3mp3j7poic6vi9ciefad2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ourblog.noyage",
+            "certificate_hash": "991ab2c9d87b1c2eb9e1a939c7d0eac7aa69b04a"
+          }
         },
-        "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:547964898893:android:462814dcddbf9d9b",
-        "android_client_info": {
-          "package_name": "com.ourblog.noyage2"
-        }
-      },
-      "oauth_client": [
         {
           "client_id": "547964898893-bguqmlkp174n6rmpdn88nvqipq44erum.apps.googleusercontent.com",
           "client_type": 3
@@ -91,8 +68,21 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547964898893-bguqmlkp174n6rmpdn88nvqipq44erum.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "547964898893-eh845q1v0p4ojra3nnevnm9u3ts1684u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ourblog",
+                "app_store_id": "1212123"
+              }
+            }
+          ]
         },
         "ads_service": {
           "status": 2

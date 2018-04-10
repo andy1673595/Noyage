@@ -6,13 +6,80 @@
     android:layout_height="match_parent"
     tools:context="com.ourblog.noyage.Login">
 
-    <TextView
+    <Button
+        android:id="@+id/createButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:text="Create"
+        app:layout_constraintStart_toEndOf="@+id/LogoutBtton"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        app:layout_constraintStart_toEndOf="@+id/createButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/LogoutBtton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/testButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LogoutBtton" />
+
+    <Button
+        android:id="@+id/buttonLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Load"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content" />
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="內容"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:text="標題"
+        app:layout_constraintTop_toBottomOf="@+id/testButton"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/buttonInvite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="邀請"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLoad" />
+
+    <EditText
+        android:id="@+id/invitefriendemail"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="52dp"
+        android:text="你暗戀誰"
+        app:layout_constraintStart_toEndOf="@+id/buttonInvite"
+        app:layout_constraintTop_toBottomOf="@+id/content" />
 
 </android.support.constraint.ConstraintLayout>
