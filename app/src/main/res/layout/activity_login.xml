@@ -35,22 +35,13 @@
         android:layout_height="wrap_content"
         android:text="post"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LogoutBtton" />
-
-    <Button
-        android:id="@+id/buttonLoad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="Load"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/content" />
+        app:layout_constraintTop_toBottomOf="@+id/userpassword" />
 
     <EditText
         android:id="@+id/content"
         android:layout_width="302dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="5dp"
         android:text="內容"
         app:layout_constraintTop_toBottomOf="@+id/title"
         tools:ignore="MissingConstraints"
@@ -68,9 +59,10 @@
         android:id="@+id/buttonInvite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="邀請"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonLoad" />
+        app:layout_constraintTop_toBottomOf="@+id/tagEdit" />
 
     <EditText
         android:id="@+id/invitefriendemail"
@@ -78,8 +70,42 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="52dp"
-        android:text="你暗戀誰"
+        android:text="andy001@gmail.com"
         app:layout_constraintStart_toEndOf="@+id/buttonInvite"
         app:layout_constraintTop_toBottomOf="@+id/content" />
+
+    <EditText
+        android:id="@+id/tagEdit"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:text="Tag"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content" />
+
+    <Button
+        android:id="@+id/addTagButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:text="AddTag"
+        app:layout_constraintStart_toEndOf="@+id/tagEdit"
+        app:layout_constraintTop_toBottomOf="@+id/content" />
+
+    <EditText
+        android:id="@+id/userpassword"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:text="1fasyfsayflf"
+        app:layout_constraintTop_toBottomOf="@+id/useremail"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/useremail"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:text="andy002@gmail.com"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createButton" />
+
 
 </android.support.constraint.ConstraintLayout>
